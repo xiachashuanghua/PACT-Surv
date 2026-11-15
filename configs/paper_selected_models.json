@@ -1,0 +1,997 @@
+[
+  {
+    "cancer": "luad",
+    "split": 1,
+    "linear_config": [
+      1,
+      50,
+      1.0,
+      0.5,
+      1.0,
+      0.2
+    ],
+    "source_wd": 0.001,
+    "transfer": [
+      "frozen",
+      0.001,
+      1.0,
+      100
+    ],
+    "model_sha256": "40e08dd5304bda7038b6886320d2f45b513e565cea43243f70f3b2aad77ed56a"
+  },
+  {
+    "cancer": "luad",
+    "split": 2,
+    "linear_config": [
+      1,
+      20,
+      1.0,
+      0.1,
+      1.0,
+      0.5
+    ],
+    "source_wd": 0.001,
+    "transfer": [
+      "frozen",
+      0.001,
+      1.0,
+      100
+    ],
+    "model_sha256": "7d4502820609c26c8cfd04bf2323e0bb0d03b6f4674ec82d0d0ebeaaab2b432a"
+  },
+  {
+    "cancer": "luad",
+    "split": 3,
+    "linear_config": [
+      2,
+      20,
+      1.0,
+      0.1,
+      1.0,
+      0.3
+    ],
+    "source_wd": 0.001,
+    "transfer": [
+      "frozen",
+      0.001,
+      1.0,
+      200
+    ],
+    "model_sha256": "b3a7f5cc34828000258c47cd58ac49b50987f0e041b46c73de3e41bcb996585b"
+  },
+  {
+    "cancer": "luad",
+    "split": 4,
+    "linear_config": [
+      1,
+      50,
+      1.0,
+      0.5,
+      1.0,
+      0.2
+    ],
+    "source_wd": 0.001,
+    "transfer": [
+      "full",
+      1e-05,
+      1.0,
+      25
+    ],
+    "model_sha256": "f6f8e2031f0626e2f36dca7753990025fd6adc0a3e7df9afc88e9bf88aa0ba72"
+  },
+  {
+    "cancer": "luad",
+    "split": 5,
+    "linear_config": [
+      1,
+      20,
+      1.0,
+      0.5,
+      1.0,
+      0.2
+    ],
+    "source_wd": 0.001,
+    "transfer": [
+      "frozen",
+      0.001,
+      1.0,
+      100
+    ],
+    "model_sha256": "734d0ab366bfa05f320430140ccbe76506b97816ab2b871cdc02198447eec989"
+  },
+  {
+    "cancer": "luad",
+    "split": 6,
+    "linear_config": [
+      1,
+      20,
+      1.0,
+      0.1,
+      1.0,
+      0.5
+    ],
+    "source_wd": 0.001,
+    "transfer": [
+      "frozen",
+      0.001,
+      1.0,
+      100
+    ],
+    "model_sha256": "3db3848b450074f2cae4f9653b44d95fad82ed31558eeb0e98694c8184d7d170"
+  },
+  {
+    "cancer": "luad",
+    "split": 7,
+    "linear_config": [
+      1,
+      20,
+      1.0,
+      0.1,
+      1.0,
+      0.5
+    ],
+    "source_wd": 0.001,
+    "transfer": [
+      "frozen",
+      0.001,
+      1.0,
+      100
+    ],
+    "model_sha256": "b68de93686d1a2755c47950076922d6845077ea6a2557a0db8566bcbb33a3eda"
+  },
+  {
+    "cancer": "luad",
+    "split": 8,
+    "linear_config": [
+      1,
+      20,
+      1.0,
+      0.5,
+      0.3,
+      0.1
+    ],
+    "source_wd": 0.001,
+    "transfer": [
+      "frozen",
+      0.001,
+      1.0,
+      50
+    ],
+    "model_sha256": "ea74a3ca710b279a314f4107a752a8b1f517cd3ccf99d60fc7f2378d69d9d76f"
+  },
+  {
+    "cancer": "luad",
+    "split": 9,
+    "linear_config": [
+      2,
+      20,
+      1.0,
+      0.5,
+      1.0,
+      0.1
+    ],
+    "source_wd": 0.001,
+    "transfer": [
+      "frozen",
+      0.001,
+      1.0,
+      50
+    ],
+    "model_sha256": "7deb783ec81c1756baa3000f543b4cf1fc6f192e95184306e742189a2add3fc7"
+  },
+  {
+    "cancer": "luad",
+    "split": 10,
+    "linear_config": [
+      1,
+      20,
+      1.0,
+      0.5,
+      0.1,
+      0.2
+    ],
+    "source_wd": 0.001,
+    "transfer": [
+      "frozen",
+      0.001,
+      1.0,
+      200
+    ],
+    "model_sha256": "ccf1cf8e557026b314e6152da501d37cae9cee63b0d4e00cbe0ae74b10934235"
+  },
+  {
+    "cancer": "lgg",
+    "split": 1,
+    "linear_config": [
+      2,
+      200,
+      1.0,
+      0.9,
+      0.3,
+      0.05
+    ],
+    "source_wd": 0.1,
+    "transfer": [
+      "full",
+      1e-05,
+      1.0,
+      200
+    ],
+    "model_sha256": "fedf3f087ea282a430028e4008c86db68fe09ea9afa51cb5df4367384cfa1654"
+  },
+  {
+    "cancer": "lgg",
+    "split": 2,
+    "linear_config": [
+      2,
+      200,
+      1.0,
+      0.1,
+      0.3,
+      0.1
+    ],
+    "source_wd": 0.001,
+    "transfer": [
+      "frozen",
+      0.001,
+      1.0,
+      400
+    ],
+    "model_sha256": "5abc843b2829006b621facf09f23f597f67d863d82bdae7dc1d3b044639325d9"
+  },
+  {
+    "cancer": "lgg",
+    "split": 3,
+    "linear_config": [
+      0,
+      200,
+      1.0,
+      0.1,
+      0.3,
+      0.3
+    ],
+    "source_wd": 0.001,
+    "transfer": [
+      "full",
+      1e-05,
+      1.0,
+      200
+    ],
+    "model_sha256": "5d54d6afffdd6ea013732be49c60181a81ec6d94b9645a229be0def7a93c4447"
+  },
+  {
+    "cancer": "lgg",
+    "split": 4,
+    "linear_config": [
+      2,
+      200,
+      1.0,
+      0.1,
+      1.0,
+      0.2
+    ],
+    "source_wd": 0.1,
+    "transfer": [
+      "full",
+      0.0001,
+      1.0,
+      100
+    ],
+    "model_sha256": "18e939507874669a3ae633f1e8112c772510725993d06ada0d9233ca820cf765"
+  },
+  {
+    "cancer": "lgg",
+    "split": 5,
+    "linear_config": [
+      0,
+      20,
+      1.0,
+      0.9,
+      0.1,
+      0.05
+    ],
+    "source_wd": 0.1,
+    "transfer": [
+      "full",
+      0.0001,
+      1.0,
+      400
+    ],
+    "model_sha256": "abe61e0cf48325db3352dfcc11999e4d17129228c1e30ab8dfdd556633810d74"
+  },
+  {
+    "cancer": "lgg",
+    "split": 6,
+    "linear_config": [
+      1,
+      200,
+      1.0,
+      0.5,
+      0.3,
+      0.05
+    ],
+    "source_wd": 0.01,
+    "transfer": null,
+    "model_sha256": "1916f8b39735241e8ebd38138dbadfb126c4a94368527bdada0432c37340c75a"
+  },
+  {
+    "cancer": "lgg",
+    "split": 7,
+    "linear_config": [
+      0,
+      50,
+      1.0,
+      0.9,
+      0.1,
+      0.05
+    ],
+    "source_wd": 0.001,
+    "transfer": [
+      "full",
+      1e-05,
+      0.01,
+      25
+    ],
+    "model_sha256": "247a7773858b58aac688ef59567cd3675fb72d4e6fec914c0975b32be87ce050"
+  },
+  {
+    "cancer": "lgg",
+    "split": 8,
+    "linear_config": [
+      1,
+      200,
+      1.0,
+      0.1,
+      1.0,
+      0.2
+    ],
+    "source_wd": 0.1,
+    "transfer": [
+      "full",
+      0.0001,
+      1.0,
+      200
+    ],
+    "model_sha256": "562e24d93898b282e0ef5f93a6c4d8ed658cf6fd25fd591d9cd8c3bab1d6e710"
+  },
+  {
+    "cancer": "lgg",
+    "split": 9,
+    "linear_config": [
+      2,
+      200,
+      1.0,
+      0.1,
+      1.0,
+      0.2
+    ],
+    "source_wd": 0.001,
+    "transfer": [
+      "frozen",
+      0.001,
+      1.0,
+      100
+    ],
+    "model_sha256": "3ba3759be2a700491d70e04905276d01940c4067e86d042c90fdcce27712fb7a"
+  },
+  {
+    "cancer": "lgg",
+    "split": 10,
+    "linear_config": [
+      1,
+      200,
+      1.0,
+      0.5,
+      1.0,
+      0.03
+    ],
+    "source_wd": 0.001,
+    "transfer": [
+      "frozen",
+      0.001,
+      0.01,
+      100
+    ],
+    "model_sha256": "b32f9e2ce423195b8ba53bb7717ed9cb5c9ddcccd69889d112093046b33789b7"
+  },
+  {
+    "cancer": "kirc",
+    "split": 1,
+    "linear_config": [
+      2,
+      200,
+      0.0,
+      0.1,
+      0.3,
+      0.3
+    ],
+    "source_wd": 0.001,
+    "transfer": [
+      "full",
+      1e-05,
+      0.01,
+      50
+    ],
+    "model_sha256": "ec172da5d199e326c7637fcdaa6658c56233634b1e17ee77317ff8b7ef906250"
+  },
+  {
+    "cancer": "kirc",
+    "split": 2,
+    "linear_config": [
+      2,
+      50,
+      0.0,
+      0.1,
+      0.1,
+      0.03
+    ],
+    "source_wd": 0.001,
+    "transfer": [
+      "full",
+      1e-05,
+      0.01,
+      50
+    ],
+    "model_sha256": "a320f621f4823faa9ba05e77aae7de73bb4e4ef605e9ced391d182dd322dcfe3"
+  },
+  {
+    "cancer": "kirc",
+    "split": 3,
+    "linear_config": [
+      2,
+      50,
+      0.0,
+      0.9,
+      0.1,
+      0.2
+    ],
+    "source_wd": 0.001,
+    "transfer": [
+      "full",
+      1e-05,
+      0.01,
+      50
+    ],
+    "model_sha256": "07e8d60ad389a65f13b2cf04666082eacd0a7d81d4feea60ac874808240f0f98"
+  },
+  {
+    "cancer": "kirc",
+    "split": 4,
+    "linear_config": [
+      2,
+      200,
+      0.0,
+      0.1,
+      0.3,
+      0.2
+    ],
+    "source_wd": 0.001,
+    "transfer": [
+      "frozen",
+      0.001,
+      1.0,
+      100
+    ],
+    "model_sha256": "4c96bb0b331f4166c091a8f7ddbdc4e48fba5423e41a152f7916bfadd4d0ed37"
+  },
+  {
+    "cancer": "kirc",
+    "split": 5,
+    "linear_config": [
+      2,
+      200,
+      0.0,
+      0.1,
+      1.0,
+      0.3
+    ],
+    "source_wd": 0.001,
+    "transfer": [
+      "full",
+      1e-05,
+      0.01,
+      50
+    ],
+    "model_sha256": "2a7017414c1195750cadc8b1f29a38ac9b81313ac9f4482ca89b78c02724bbdc"
+  },
+  {
+    "cancer": "kirc",
+    "split": 6,
+    "linear_config": [
+      2,
+      200,
+      0.0,
+      0.1,
+      1.0,
+      0.5
+    ],
+    "source_wd": 0.001,
+    "transfer": [
+      "full",
+      1e-05,
+      0.01,
+      50
+    ],
+    "model_sha256": "c438029f4e22e38330f8abcd4c8008a096e7c44f654f3dd5d6fc38059d3d6e7c"
+  },
+  {
+    "cancer": "kirc",
+    "split": 7,
+    "linear_config": [
+      0,
+      200,
+      0.0,
+      0.1,
+      1.0,
+      0.3
+    ],
+    "source_wd": 0.001,
+    "transfer": [
+      "frozen",
+      0.001,
+      1.0,
+      100
+    ],
+    "model_sha256": "859cb5cbe24d0f1575ea86825702d8ee08b2b1b1e364da2f5c5dbf217a79b5fb"
+  },
+  {
+    "cancer": "kirc",
+    "split": 8,
+    "linear_config": [
+      2,
+      200,
+      0.0,
+      0.5,
+      1.0,
+      0.5
+    ],
+    "source_wd": 0.001,
+    "transfer": [
+      "full",
+      0.0001,
+      1.0,
+      25
+    ],
+    "model_sha256": "3fe7fd68343f9a72777dcb8c90d37782715d1cf9153e12077760aa9033f96957"
+  },
+  {
+    "cancer": "kirc",
+    "split": 9,
+    "linear_config": [
+      1,
+      200,
+      0.0,
+      0.1,
+      1.0,
+      0.5
+    ],
+    "source_wd": 0.001,
+    "transfer": [
+      "full",
+      1e-05,
+      0.01,
+      50
+    ],
+    "model_sha256": "a7373e3918e7ddbdce5b5caf0a758d4e7fdf16f76c124cb4aee169d15de2006e"
+  },
+  {
+    "cancer": "kirc",
+    "split": 10,
+    "linear_config": [
+      1,
+      200,
+      0.0,
+      0.1,
+      1.0,
+      0.5
+    ],
+    "source_wd": 0.001,
+    "transfer": [
+      "full",
+      1e-05,
+      0.01,
+      25
+    ],
+    "model_sha256": "1ce91eb5c5308698e77247b86c0f6fa144e94cd514b23ba58e1bc9418def2704"
+  },
+  {
+    "cancer": "brca",
+    "split": 1,
+    "linear_config": [
+      1,
+      20,
+      1.0,
+      0.9,
+      0.1,
+      0.03
+    ],
+    "source_wd": 0.1,
+    "transfer": [
+      "full",
+      0.0001,
+      1.0,
+      400
+    ],
+    "model_sha256": "f641091943436ddcb2c14dc01893e42fcd08c7e4c2f9bd68d71a020748f2b746"
+  },
+  {
+    "cancer": "brca",
+    "split": 2,
+    "linear_config": [
+      0,
+      50,
+      0.0,
+      0.1,
+      1.0,
+      0.3
+    ],
+    "source_wd": 0.001,
+    "transfer": [
+      "full",
+      0.0001,
+      1.0,
+      200
+    ],
+    "model_sha256": "3ebd9eb793b35fc22c6b7eea80d219590b4836b40af8a82728c3c4ebb2348ac3"
+  },
+  {
+    "cancer": "brca",
+    "split": 3,
+    "linear_config": [
+      2,
+      20,
+      1.0,
+      0.5,
+      0.1,
+      0.03
+    ],
+    "source_wd": 0.01,
+    "transfer": [
+      "full",
+      1e-05,
+      0.01,
+      50
+    ],
+    "model_sha256": "63f7d673ac165e948cda09439564ced62a0947b28507559611f307e764de8326"
+  },
+  {
+    "cancer": "brca",
+    "split": 4,
+    "linear_config": [
+      0,
+      200,
+      0.0,
+      0.9,
+      0.3,
+      0.03
+    ],
+    "source_wd": 0.001,
+    "transfer": [
+      "frozen",
+      0.001,
+      1.0,
+      800
+    ],
+    "model_sha256": "3710aff8f0b1106ef2947fb09fe7bbeac64568ceb13ad7adea1eeccc906cba2a"
+  },
+  {
+    "cancer": "brca",
+    "split": 5,
+    "linear_config": [
+      1,
+      20,
+      0.0,
+      0.9,
+      0.3,
+      0.03
+    ],
+    "source_wd": 0.001,
+    "transfer": [
+      "frozen",
+      0.001,
+      1.0,
+      400
+    ],
+    "model_sha256": "0b8832a7ffaa177835ad1b4deb6ffe5bf2fb1f468943a5b377c2da074a3d6604"
+  },
+  {
+    "cancer": "brca",
+    "split": 6,
+    "linear_config": [
+      2,
+      200,
+      1.0,
+      0.1,
+      1.0,
+      0.03
+    ],
+    "source_wd": 0.001,
+    "transfer": [
+      "full",
+      1e-05,
+      1.0,
+      400
+    ],
+    "model_sha256": "9eb6c977f4b79ceb88ba78bde386fcc7fece7374a67f217e32ad33c7fd692214"
+  },
+  {
+    "cancer": "brca",
+    "split": 7,
+    "linear_config": [
+      2,
+      20,
+      1.0,
+      0.1,
+      0.1,
+      0.05
+    ],
+    "source_wd": 0.001,
+    "transfer": [
+      "full",
+      0.0001,
+      1.0,
+      400
+    ],
+    "model_sha256": "a944e24763b682f380de0bb70e722bae895056c853e0d81f7c8bf21e7ef4537b"
+  },
+  {
+    "cancer": "brca",
+    "split": 8,
+    "linear_config": [
+      0,
+      200,
+      0.0,
+      0.1,
+      1.0,
+      0.3
+    ],
+    "source_wd": 0.001,
+    "transfer": [
+      "full",
+      1e-05,
+      1.0,
+      200
+    ],
+    "model_sha256": "e0f5900485711d63247cab740e1761d672622803ce9476f17f1766a24955c7ba"
+  },
+  {
+    "cancer": "brca",
+    "split": 9,
+    "linear_config": [
+      0,
+      200,
+      0.0,
+      0.9,
+      0.1,
+      0.03
+    ],
+    "source_wd": 0.001,
+    "transfer": [
+      "frozen",
+      0.001,
+      1.0,
+      800
+    ],
+    "model_sha256": "6886883525274fbdbbc413821de597d04a3aa60647733ca23beca29bfaab157b"
+  },
+  {
+    "cancer": "brca",
+    "split": 10,
+    "linear_config": [
+      1,
+      20,
+      1.0,
+      0.5,
+      0.3,
+      0.03
+    ],
+    "source_wd": 0.001,
+    "transfer": [
+      "frozen",
+      0.001,
+      1.0,
+      200
+    ],
+    "model_sha256": "c774ff667858fd586f106a18100199cfde06326ce6b79506cfa21d8565a50d41"
+  },
+  {
+    "cancer": "lihc",
+    "split": 1,
+    "linear_config": [
+      2,
+      50,
+      0.0,
+      0.1,
+      0.1,
+      0.03
+    ],
+    "source_wd": 0.001,
+    "transfer": [
+      "full",
+      0.0001,
+      1.0,
+      400
+    ],
+    "model_sha256": "94e2c4a0ee0b114c7c2587c6f316de1ff616d06ad3405dbe72ecbeb1736ab9bd"
+  },
+  {
+    "cancer": "lihc",
+    "split": 2,
+    "linear_config": [
+      1,
+      200,
+      1.0,
+      0.1,
+      0.3,
+      0.3
+    ],
+    "source_wd": 0.001,
+    "transfer": [
+      "full",
+      0.0001,
+      1.0,
+      200
+    ],
+    "model_sha256": "6025ff7bc4443ca7f3d814e6e728a43bb0040e6111e359501a6e92bb5c874ed1"
+  },
+  {
+    "cancer": "lihc",
+    "split": 3,
+    "linear_config": [
+      2,
+      50,
+      1.0,
+      0.9,
+      0.1,
+      0.1
+    ],
+    "source_wd": 0.001,
+    "transfer": [
+      "frozen",
+      0.001,
+      1.0,
+      800
+    ],
+    "model_sha256": "36d3a1792284d3c82e30d12e0f1317d61bb0217285b6520cf74f55ee03e34294"
+  },
+  {
+    "cancer": "lihc",
+    "split": 4,
+    "linear_config": [
+      1,
+      50,
+      0.0,
+      0.9,
+      0.1,
+      0.05
+    ],
+    "source_wd": 0.001,
+    "transfer": [
+      "full",
+      0.0001,
+      1.0,
+      400
+    ],
+    "model_sha256": "489b55561dfe4be3eeda7f07c768abf3fab61141d02b3e88aea6ac897ef9954f"
+  },
+  {
+    "cancer": "lihc",
+    "split": 5,
+    "linear_config": [
+      1,
+      200,
+      1.0,
+      0.1,
+      0.1,
+      0.3
+    ],
+    "source_wd": 0.001,
+    "transfer": [
+      "full",
+      1e-05,
+      1.0,
+      400
+    ],
+    "model_sha256": "161c1bed4ecf2870a23bd20ef3cab40983b3bd4819475d82f5b20b7390b35f35"
+  },
+  {
+    "cancer": "lihc",
+    "split": 6,
+    "linear_config": [
+      1,
+      20,
+      1.0,
+      0.1,
+      0.3,
+      0.5
+    ],
+    "source_wd": 0.001,
+    "transfer": [
+      "frozen",
+      0.001,
+      1.0,
+      400
+    ],
+    "model_sha256": "32787df699bbacc2d39709fda94d5011d0b33cf9888bc5ca8acae156c69a95e2"
+  },
+  {
+    "cancer": "lihc",
+    "split": 7,
+    "linear_config": [
+      0,
+      20,
+      1.0,
+      0.9,
+      0.3,
+      0.03
+    ],
+    "source_wd": 0.001,
+    "transfer": [
+      "full",
+      1e-05,
+      1.0,
+      400
+    ],
+    "model_sha256": "0c199169aacc7b70a03cdd849a5c956385a3b09d50d08cae5da7eccb8e9303e6"
+  },
+  {
+    "cancer": "lihc",
+    "split": 8,
+    "linear_config": [
+      1,
+      20,
+      1.0,
+      0.5,
+      1.0,
+      0.2
+    ],
+    "source_wd": 0.001,
+    "transfer": [
+      "frozen",
+      0.001,
+      1.0,
+      100
+    ],
+    "model_sha256": "2f6af0a5e042a138be0eb7de2239d1e24f1deabefe30e84ff4e5c6520c99b84e"
+  },
+  {
+    "cancer": "lihc",
+    "split": 9,
+    "linear_config": [
+      1,
+      50,
+      1.0,
+      0.1,
+      1.0,
+      0.03
+    ],
+    "source_wd": 0.001,
+    "transfer": [
+      "frozen",
+      0.001,
+      1.0,
+      800
+    ],
+    "model_sha256": "c9e6171173b8bc9127a2a01c6703575c69a5ec0be6c56b32de1b8c17972ccc69"
+  },
+  {
+    "cancer": "lihc",
+    "split": 10,
+    "linear_config": [
+      1,
+      50,
+      1.0,
+      0.1,
+      0.1,
+      0.05
+    ],
+    "source_wd": 0.001,
+    "transfer": [
+      "frozen",
+      0.001,
+      0.01,
+      200
+    ],
+    "model_sha256": "3629a3dcc985063c5db4a045431f2e6d50d8413903deb261bfa3a674a35d6b44"
+  }
+]

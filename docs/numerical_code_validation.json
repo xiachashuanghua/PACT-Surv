@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "unchanged_functions": {
+    "train.py:protocol": "identical AST",
+    "train.py:filled": "identical AST",
+    "train.py:network_input": "identical AST",
+    "train.py:Network": "identical AST",
+    "train.py:StableCox": "identical AST",
+    "train.py:trajectories": "identical AST",
+    "train.py:score": "identical AST",
+    "train.py:predict": "identical AST",
+    "train.py:self_test": "identical AST",
+    "pipeline.py:scale_fit": "identical AST",
+    "pipeline.py:apply_scale": "identical AST",
+    "pipeline.py:linear_blocks": "identical AST",
+    "pipeline.py:candidates": "identical AST",
+    "pipeline.py:fit_linear": "identical AST",
+    "pretrain19.py:Strat": "identical AST",
+    "pretrain19.py:Net": "identical AST",
+    "pretrain19.py:weights": "identical AST",
+    "pretrain19.py:train": "identical AST",
+    "pretrain19.py:split": "identical AST",
+    "pretrain19.py:np_forward": "identical AST",
+    "pretrain19b.py:labels": "identical AST",
+    "pretrain19b.py:fit": "identical AST",
+    "model.py:CoxT": "identical AST",
+    "model.py:Head": "identical AST",
+    "linear.py": "identical module AST; trailing whitespace normalized"
+  },
+  "local_prepared_test_partitions": 50
+}

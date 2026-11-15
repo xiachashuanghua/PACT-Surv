@@ -1,0 +1,537 @@
+{
+  "status": "PASS",
+  "predictors": 50,
+  "test_patient_predictor_records": 2410,
+  "matched_patient_ids_outcomes_and_splits": true,
+  "all_metrics_exactly_equal": true,
+  "prediction_atol": 1e-06,
+  "prediction_rtol": 1e-06,
+  "max_abs_prediction_difference": 6.011687219142914e-07,
+  "per_predictor": [
+    {
+      "cancer": "luad",
+      "split": 1,
+      "records": 45,
+      "max_abs_difference": 2.2351741790771484e-08
+    },
+    {
+      "cancer": "luad",
+      "split": 2,
+      "records": 45,
+      "max_abs_difference": 2.9802322387695312e-08
+    },
+    {
+      "cancer": "luad",
+      "split": 3,
+      "records": 45,
+      "max_abs_difference": 5.960464477539063e-08
+    },
+    {
+      "cancer": "luad",
+      "split": 4,
+      "records": 45,
+      "max_abs_difference": 1.1175870895385742e-08
+    },
+    {
+      "cancer": "luad",
+      "split": 5,
+      "records": 45,
+      "max_abs_difference": 2.9802322387695312e-08
+    },
+    {
+      "cancer": "luad",
+      "split": 6,
+      "records": 45,
+      "max_abs_difference": 2.9802322387695312e-08
+    },
+    {
+      "cancer": "luad",
+      "split": 7,
+      "records": 45,
+      "max_abs_difference": 2.9802322387695312e-08
+    },
+    {
+      "cancer": "luad",
+      "split": 8,
+      "records": 45,
+      "max_abs_difference": 2.9802322387695312e-08
+    },
+    {
+      "cancer": "luad",
+      "split": 9,
+      "records": 45,
+      "max_abs_difference": 1.4901161193847656e-08
+    },
+    {
+      "cancer": "luad",
+      "split": 10,
+      "records": 45,
+      "max_abs_difference": 5.960464477539063e-08
+    },
+    {
+      "cancer": "lgg",
+      "split": 1,
+      "records": 51,
+      "max_abs_difference": 8.940696716308594e-08
+    },
+    {
+      "cancer": "lgg",
+      "split": 2,
+      "records": 51,
+      "max_abs_difference": 8.940696716308594e-08
+    },
+    {
+      "cancer": "lgg",
+      "split": 3,
+      "records": 51,
+      "max_abs_difference": 1.1920928955078125e-07
+    },
+    {
+      "cancer": "lgg",
+      "split": 4,
+      "records": 51,
+      "max_abs_difference": 2.9802322387695312e-08
+    },
+    {
+      "cancer": "lgg",
+      "split": 5,
+      "records": 51,
+      "max_abs_difference": 1.1920928955078125e-07
+    },
+    {
+      "cancer": "lgg",
+      "split": 6,
+      "records": 51,
+      "max_abs_difference": 0.0
+    },
+    {
+      "cancer": "lgg",
+      "split": 7,
+      "records": 51,
+      "max_abs_difference": 1.4901161193847656e-08
+    },
+    {
+      "cancer": "lgg",
+      "split": 8,
+      "records": 51,
+      "max_abs_difference": 5.960464477539063e-08
+    },
+    {
+      "cancer": "lgg",
+      "split": 9,
+      "records": 51,
+      "max_abs_difference": 2.2351741790771484e-08
+    },
+    {
+      "cancer": "lgg",
+      "split": 10,
+      "records": 51,
+      "max_abs_difference": 1.1920928955078125e-07
+    },
+    {
+      "cancer": "kirc",
+      "split": 1,
+      "records": 32,
+      "max_abs_difference": 1.1920928955078125e-07
+    },
+    {
+      "cancer": "kirc",
+      "split": 2,
+      "records": 32,
+      "max_abs_difference": 2.9802322387695312e-08
+    },
+    {
+      "cancer": "kirc",
+      "split": 3,
+      "records": 32,
+      "max_abs_difference": 1.1920928955078125e-07
+    },
+    {
+      "cancer": "kirc",
+      "split": 4,
+      "records": 32,
+      "max_abs_difference": 2.9802322387695312e-08
+    },
+    {
+      "cancer": "kirc",
+      "split": 5,
+      "records": 32,
+      "max_abs_difference": 5.960464477539063e-08
+    },
+    {
+      "cancer": "kirc",
+      "split": 6,
+      "records": 32,
+      "max_abs_difference": 5.960464477539063e-08
+    },
+    {
+      "cancer": "kirc",
+      "split": 7,
+      "records": 32,
+      "max_abs_difference": 8.940696716308594e-08
+    },
+    {
+      "cancer": "kirc",
+      "split": 8,
+      "records": 32,
+      "max_abs_difference": 7.450580596923828e-09
+    },
+    {
+      "cancer": "kirc",
+      "split": 9,
+      "records": 32,
+      "max_abs_difference": 5.960464477539063e-08
+    },
+    {
+      "cancer": "kirc",
+      "split": 10,
+      "records": 32,
+      "max_abs_difference": 1.4901161193847656e-08
+    },
+    {
+      "cancer": "brca",
+      "split": 1,
+      "records": 77,
+      "max_abs_difference": 3.5762786865234375e-07
+    },
+    {
+      "cancer": "brca",
+      "split": 2,
+      "records": 77,
+      "max_abs_difference": 5.960464477539063e-08
+    },
+    {
+      "cancer": "brca",
+      "split": 3,
+      "records": 77,
+      "max_abs_difference": 5.960464477539063e-08
+    },
+    {
+      "cancer": "brca",
+      "split": 4,
+      "records": 77,
+      "max_abs_difference": 8.940696716308594e-08
+    },
+    {
+      "cancer": "brca",
+      "split": 5,
+      "records": 77,
+      "max_abs_difference": 5.960464477539063e-08
+    },
+    {
+      "cancer": "brca",
+      "split": 6,
+      "records": 77,
+      "max_abs_difference": 1.7881393432617188e-07
+    },
+    {
+      "cancer": "brca",
+      "split": 7,
+      "records": 77,
+      "max_abs_difference": 1.1920928955078125e-07
+    },
+    {
+      "cancer": "brca",
+      "split": 8,
+      "records": 77,
+      "max_abs_difference": 5.960464477539063e-08
+    },
+    {
+      "cancer": "brca",
+      "split": 9,
+      "records": 77,
+      "max_abs_difference": 5.960464477539063e-08
+    },
+    {
+      "cancer": "brca",
+      "split": 10,
+      "records": 77,
+      "max_abs_difference": 4.470348358154297e-08
+    },
+    {
+      "cancer": "lihc",
+      "split": 1,
+      "records": 36,
+      "max_abs_difference": 7.450580596923828e-08
+    },
+    {
+      "cancer": "lihc",
+      "split": 2,
+      "records": 36,
+      "max_abs_difference": 4.470348358154297e-08
+    },
+    {
+      "cancer": "lihc",
+      "split": 3,
+      "records": 36,
+      "max_abs_difference": 1.1920928955078125e-07
+    },
+    {
+      "cancer": "lihc",
+      "split": 4,
+      "records": 36,
+      "max_abs_difference": 1.1920928955078125e-07
+    },
+    {
+      "cancer": "lihc",
+      "split": 5,
+      "records": 36,
+      "max_abs_difference": 1.4901161193847656e-07
+    },
+    {
+      "cancer": "lihc",
+      "split": 6,
+      "records": 36,
+      "max_abs_difference": 5.960464477539063e-08
+    },
+    {
+      "cancer": "lihc",
+      "split": 7,
+      "records": 36,
+      "max_abs_difference": 1.1920928955078125e-07
+    },
+    {
+      "cancer": "lihc",
+      "split": 8,
+      "records": 36,
+      "max_abs_difference": 1.4901161193847656e-08
+    },
+    {
+      "cancer": "lihc",
+      "split": 9,
+      "records": 36,
+      "max_abs_difference": 2.9802322387695312e-08
+    },
+    {
+      "cancer": "lihc",
+      "split": 10,
+      "records": 36,
+      "max_abs_difference": 6.011687219142914e-07
+    }
+  ],
+  "IG_checks": [
+    {
+      "cancer": "luad",
+      "split": 1,
+      "patients": 1,
+      "max_abs_reconstruction_residual": 4.1153130903026636e-10,
+      "quadrature": [
+        {
+          "seed": 0,
+          "quadrature_nodes": 32,
+          "quadrature_max_abs_error": 0.0,
+          "gene_projection_rounding_max_abs_error": 2.220446049250313e-16,
+          "scaled_gene_max_abs_completeness_error": 4.26048407307726e-18
+        },
+        {
+          "seed": 1,
+          "quadrature_nodes": 32,
+          "quadrature_max_abs_error": 1.1102230246251565e-16,
+          "gene_projection_rounding_max_abs_error": 1.1102230246251565e-16,
+          "scaled_gene_max_abs_completeness_error": 4.26048407307726e-18
+        },
+        {
+          "seed": 2,
+          "quadrature_nodes": 32,
+          "quadrature_max_abs_error": 0.0,
+          "gene_projection_rounding_max_abs_error": 2.7755575615628914e-17,
+          "scaled_gene_max_abs_completeness_error": 5.325605091346575e-19
+        },
+        {
+          "seed": 3,
+          "quadrature_nodes": 32,
+          "quadrature_max_abs_error": 0.0,
+          "gene_projection_rounding_max_abs_error": 2.220446049250313e-16,
+          "scaled_gene_max_abs_completeness_error": 4.26048407307726e-18
+        },
+        {
+          "seed": 4,
+          "quadrature_nodes": 32,
+          "quadrature_max_abs_error": 0.0,
+          "gene_projection_rounding_max_abs_error": 2.7755575615628914e-17,
+          "scaled_gene_max_abs_completeness_error": 5.325605091346575e-19
+        }
+      ]
+    },
+    {
+      "cancer": "lgg",
+      "split": 1,
+      "patients": 1,
+      "max_abs_reconstruction_residual": 2.6988036250230607e-09,
+      "quadrature": [
+        {
+          "seed": 0,
+          "quadrature_nodes": 32,
+          "quadrature_max_abs_error": 1.1102230246251565e-16,
+          "gene_projection_rounding_max_abs_error": 2.220446049250313e-16,
+          "scaled_gene_max_abs_completeness_error": 1.5759978396419255e-17
+        },
+        {
+          "seed": 1,
+          "quadrature_nodes": 32,
+          "quadrature_max_abs_error": 1.1102230246251565e-16,
+          "gene_projection_rounding_max_abs_error": 0.0,
+          "scaled_gene_max_abs_completeness_error": 5.253326132139752e-18
+        },
+        {
+          "seed": 2,
+          "quadrature_nodes": 32,
+          "quadrature_max_abs_error": 1.1102230246251565e-16,
+          "gene_projection_rounding_max_abs_error": 0.0,
+          "scaled_gene_max_abs_completeness_error": 5.253326132139752e-18
+        },
+        {
+          "seed": 3,
+          "quadrature_nodes": 32,
+          "quadrature_max_abs_error": 8.326672684688674e-17,
+          "gene_projection_rounding_max_abs_error": 1.3877787807814457e-16,
+          "scaled_gene_max_abs_completeness_error": 2.626663066069876e-18
+        },
+        {
+          "seed": 4,
+          "quadrature_nodes": 32,
+          "quadrature_max_abs_error": 5.551115123125783e-17,
+          "gene_projection_rounding_max_abs_error": 1.6653345369377348e-16,
+          "scaled_gene_max_abs_completeness_error": 5.253326132139752e-18
+        }
+      ]
+    },
+    {
+      "cancer": "lgg",
+      "split": 6,
+      "patients": 1,
+      "max_abs_reconstruction_residual": 0.0,
+      "quadrature": []
+    },
+    {
+      "cancer": "kirc",
+      "split": 1,
+      "patients": 1,
+      "max_abs_reconstruction_residual": 6.907239447073721e-09,
+      "quadrature": [
+        {
+          "seed": 0,
+          "quadrature_nodes": 32,
+          "quadrature_max_abs_error": 4.440892098500626e-16,
+          "gene_projection_rounding_max_abs_error": 0.0,
+          "scaled_gene_max_abs_completeness_error": 5.323779090144364e-18
+        },
+        {
+          "seed": 1,
+          "quadrature_nodes": 32,
+          "quadrature_max_abs_error": 4.440892098500626e-16,
+          "gene_projection_rounding_max_abs_error": 0.0,
+          "scaled_gene_max_abs_completeness_error": 5.323779090144364e-18
+        },
+        {
+          "seed": 2,
+          "quadrature_nodes": 32,
+          "quadrature_max_abs_error": 1.7763568394002505e-15,
+          "gene_projection_rounding_max_abs_error": 0.0,
+          "scaled_gene_max_abs_completeness_error": 2.1295116360577456e-17
+        },
+        {
+          "seed": 3,
+          "quadrature_nodes": 32,
+          "quadrature_max_abs_error": 0.0,
+          "gene_projection_rounding_max_abs_error": 0.0,
+          "scaled_gene_max_abs_completeness_error": 0.0
+        },
+        {
+          "seed": 4,
+          "quadrature_nodes": 32,
+          "quadrature_max_abs_error": 4.440892098500626e-16,
+          "gene_projection_rounding_max_abs_error": 4.440892098500626e-16,
+          "scaled_gene_max_abs_completeness_error": 1.0647558180288728e-17
+        }
+      ]
+    },
+    {
+      "cancer": "brca",
+      "split": 1,
+      "patients": 1,
+      "max_abs_reconstruction_residual": 2.723484737732207e-08,
+      "quadrature": [
+        {
+          "seed": 0,
+          "quadrature_nodes": 32,
+          "quadrature_max_abs_error": 4.163336342344337e-17,
+          "gene_projection_rounding_max_abs_error": 3.608224830031759e-16,
+          "scaled_gene_max_abs_completeness_error": 3.860453490428144e-17
+        },
+        {
+          "seed": 1,
+          "quadrature_nodes": 32,
+          "quadrature_max_abs_error": 1.1102230246251565e-16,
+          "gene_projection_rounding_max_abs_error": 8.326672684688674e-17,
+          "scaled_gene_max_abs_completeness_error": 1.8636672022756557e-17
+        },
+        {
+          "seed": 2,
+          "quadrature_nodes": 32,
+          "quadrature_max_abs_error": 1.6653345369377348e-16,
+          "gene_projection_rounding_max_abs_error": 5.551115123125783e-17,
+          "scaled_gene_max_abs_completeness_error": 1.0649526870146604e-17
+        },
+        {
+          "seed": 3,
+          "quadrature_nodes": 32,
+          "quadrature_max_abs_error": 5.551115123125783e-17,
+          "gene_projection_rounding_max_abs_error": 2.7755575615628914e-17,
+          "scaled_gene_max_abs_completeness_error": 2.662381717536651e-18
+        },
+        {
+          "seed": 4,
+          "quadrature_nodes": 32,
+          "quadrature_max_abs_error": 5.551115123125783e-17,
+          "gene_projection_rounding_max_abs_error": 5.551115123125783e-17,
+          "scaled_gene_max_abs_completeness_error": 1.0649526870146604e-17
+        }
+      ]
+    },
+    {
+      "cancer": "lihc",
+      "split": 1,
+      "patients": 1,
+      "max_abs_reconstruction_residual": 1.4117377045153034e-08,
+      "quadrature": [
+        {
+          "seed": 0,
+          "quadrature_nodes": 32,
+          "quadrature_max_abs_error": 1.1102230246251565e-16,
+          "gene_projection_rounding_max_abs_error": 1.1102230246251565e-16,
+          "scaled_gene_max_abs_completeness_error": 2.0338738077277527e-17
+        },
+        {
+          "seed": 1,
+          "quadrature_nodes": 32,
+          "quadrature_max_abs_error": 0.0,
+          "gene_projection_rounding_max_abs_error": 2.220446049250313e-16,
+          "scaled_gene_max_abs_completeness_error": 2.0338738077277527e-17
+        },
+        {
+          "seed": 2,
+          "quadrature_nodes": 32,
+          "quadrature_max_abs_error": 0.0,
+          "gene_projection_rounding_max_abs_error": 0.0,
+          "scaled_gene_max_abs_completeness_error": 0.0
+        },
+        {
+          "seed": 3,
+          "quadrature_nodes": 32,
+          "quadrature_max_abs_error": 1.1102230246251565e-16,
+          "gene_projection_rounding_max_abs_error": 1.1102230246251565e-16,
+          "scaled_gene_max_abs_completeness_error": 0.0
+        },
+        {
+          "seed": 4,
+          "quadrature_nodes": 32,
+          "quadrature_max_abs_error": 0.0,
+          "gene_projection_rounding_max_abs_error": 1.1102230246251565e-16,
+          "scaled_gene_max_abs_completeness_error": 1.0169369038638764e-17
+        }
+      ]
+    }
+  ],
+  "no_training": true
+}

@@ -1,0 +1,19 @@
+{
+  "reference_batch": "unified_cv_800_20261008",
+  "source_exclusion": "target cancer only",
+  "reference_files": {
+    "unified_experiment_800.py": "80414b296f89a954c64072a92f4a656d00791b0b49b50d5c32232c6294d2c672",
+    "pipeline.py": "fc7a201280a30014ed9357a33ab5a9fb0539f53d9a21bd2b3a15bd35513919d1",
+    "linear.py": "d20dbd09bbccfb08359a2e0f838894cb8f51a5c257643bb52daa0e7f39df3830",
+    "model.py": "997651b97e22b721e18f323d024a3ec620d2cbd590e465fffced29db546cedb5",
+    "pretrain19.py": "60917312805df4919e769fa7e29400f75077b4d8375d0cbbaefbb96cfc2450f9",
+    "pretrain19b.py": "b0e833034ed7d993690b3c07872b964e835c254caa1c3a13d1b1da1272560653"
+  },
+  "packaging_changes": [
+    "Explicit data, source-weight and result directories",
+    "Prepared cohort NPZ schema and legacy input conversion",
+    "Removed historical cache fallback and external metric import",
+    "Source-pretraining CLI separated from target-training CLI",
+    "No patient arrays, models, prediction outputs, credentials or manuscripts bundled"
+  ]
+}
